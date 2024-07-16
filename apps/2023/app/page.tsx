@@ -1,11 +1,6 @@
-import Image from "next/image";
-import { Button } from "@repo/ui/button";
-import styles from "./page.module.css";
+// import HomeComponent from "@pycon/ui/src/components/2023/home";
+import HomeComponent from "@pycon/ui/src/2023/components/home";
 
-export default function Home() {
-  return (
-    <div className={styles.page}>
-     2023 website
-    </div>
-  );
+export default function HomePage() {
+  return <HomeComponent />;
 }

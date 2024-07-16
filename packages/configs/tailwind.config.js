@@ -14,7 +14,7 @@ module.exports = {
 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/tw-elements/dist/js/**/*.js",
+    // "./node_modules/tw-elements/dist/js/**/*.js",
 
     
   ],
@@ -33,5 +33,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tw-elements/dist/plugin.cjs")],
+  plugins: [require("tw-elements/plugin.cjs")],
 };

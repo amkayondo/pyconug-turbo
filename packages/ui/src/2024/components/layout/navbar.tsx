@@ -21,10 +21,10 @@ import { PYCONUGANDA_PROSPECTUS_2024 } from "../../utils/constants";
 import Banner from "../../../components/banner";
 import Logo from "../../../components/logo";
 // import Banner from "@/components/banner";
-// import { PYCONUGANDA_PROSPECTUS_2024 } from "@/2024/utils/constants";
+// import { PYCONUGANDA_PROSPECTUS_2024 } from "@/utils/constants";
 const NavbarLinks = [
   // {
-  //   path: "/2024/schedule",
+  //   path: "/schedule",
   //   label: "Schedule",
   // },
   {
@@ -32,7 +32,7 @@ const NavbarLinks = [
     label: "Sponsors",
     subLinks: [
       {
-        path: "/2024/sponsors",
+        path: "/sponsors",
         label: "PyCon Uganda 2024 Sponsors",
         description: "Get to know our sponsors.",
         icon: (
@@ -43,7 +43,7 @@ const NavbarLinks = [
         ),
       },
       {
-        path: "/2024/sponsors/why-sponsor",
+        path: "/sponsors/why-sponsor",
         label: "Want To Make PyCon Uganda 2024 A Success?",
         description: "Why you should sponsor Pycon Uganda 2024.",
         icon: (
@@ -71,7 +71,7 @@ const NavbarLinks = [
     label: "Speakers",
     subLinks: [
       {
-        path: "/2024/keynote-speakers",
+        path: "/keynote-speakers",
         label: "PyCon Uganda 2024 Keynote Speakers",
         description: "Get to know the keynote speakers at PyCon Uganda 2024.",
         icon: (
@@ -82,7 +82,7 @@ const NavbarLinks = [
         ),
       },
       // {
-      //   path: "/2024/speakers",
+      //   path: "/speakers",
       //   label: "PyCon Uganda 2024 Speakers",
       //   description: "Get to know the speakers at PyCon Uganda 2024.",
       //   icon: (
@@ -99,7 +99,7 @@ const NavbarLinks = [
     label: "Diversity",
     subLinks: [
       {
-        path: "/2024/financial-aid",
+        path: "/financial-aid",
         label: "Financial Aid",
         description:
           "Apply for financial assistance to attend PyCon Uganda 2024.",
@@ -111,7 +111,7 @@ const NavbarLinks = [
         ),
       },
       {
-        path: "/2024/travel-aid",
+        path: "/travel-aid",
         label: "Travel Aid",
         description: "Get support for your travel expenses.",
         icon: (
@@ -128,7 +128,7 @@ const NavbarLinks = [
     label: "Communities",
     subLinks: [
       {
-        path: "/2024/django-girls",
+        path: "/django-girls",
         label: "Django Girls",
         description:
           "Empowering women! Join us at PyCon Uganda 2024 for Django workshops.",
@@ -140,7 +140,7 @@ const NavbarLinks = [
         ),
       },
       {
-        path: "/2024/pyladies",
+        path: "/pyladies",
         label: "Pyladies",
         description:
           "Join us at Pycon Uganda as we celebrate the female python developer.",
@@ -152,7 +152,7 @@ const NavbarLinks = [
         ),
       },
       {
-        path: "/2024/community-summit",
+        path: "/community-summit",
         label: "Community Summit",
         description:
           "Community summit schedule for the event",
@@ -164,7 +164,7 @@ const NavbarLinks = [
         ),
       },
       {
-        path: "/2024/pydata",
+        path: "/pydata",
         label: "PyData Kampala",
         description:
           "Grooming a community of data scientists and machine learning enthusiasts.",
@@ -182,7 +182,7 @@ const NavbarLinks = [
     label: "Attendee Guide",
     subLinks: [
       {
-        path: "/2024/travel-guide",
+        path: "/travel-guide",
         label: "Travel Guide",
         description: "Find travel tips and guides for PyCon Uganda 2024.",
         icon: (
@@ -193,7 +193,7 @@ const NavbarLinks = [
         ),
       },
       {
-        path: "/2024/code-of-conduct",
+        path: "/code-of-conduct",
         label: "Code of Conduct",
         description: "Understand the guidelines for participating.",
         icon: (
@@ -204,7 +204,7 @@ const NavbarLinks = [
         ),
       },
       {
-        path: "/2024/health-and-safety",
+        path: "/health-and-safety",
         label: "Health and Safety",
         description: "Stay informed about health and safety measures.",
         icon: (
@@ -323,13 +323,13 @@ export default function Example() {
             Buy Tickets
           </a>
           <a
-            href="/2024/shop"
+            href="/shop"
             className="hidden md:block rounded-lg border border-black px-3 py-2 font-semibold text-black text-center h-10 truncate ..."
           >
             Buy Merch
           </a>
           <a
-            href="/2024/sponsors/why-sponsor"
+            href="/sponsors/why-sponsor"
             className="rounded-lg bg-black px-3 py-2 font-semibold text-white inline-flex items-center"
           >
             Sponsor

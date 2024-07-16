@@ -1,8 +1,10 @@
 {
-    "rewrites": [
-        {"source": "/2023", "destination": "https://pyconug-turbo-2023.vercel.app"},
-        {"source": "/2023/:match*", "destination": "https://pyconug-turbo-2023.vercel.app/:match*"},
-        {"source": "/", "destination": "https://pyconug-turbo-2024.vercel.app/"},
-        {"source": "/:match*", "destination": "https://pyconug-turbo-2024.vercel.app/:match*"}
-    ]
+  "rewrites": [
+    {"source": "/2023/_next/static/:path*", "destination": "https://pyconug-turbo-2023.vercel.app/_next/static/:path*"},
+    {"source": "/2023/:match*", "destination": "https://pyconug-turbo-2023.vercel.app/:match*"},
+    {"source": "/2023", "destination": "https://pyconug-turbo-2023.vercel.app"},
+    {"source": "/_next/static/:path*", "destination": "https://pyconug-turbo-2024.vercel.app/_next/static/:path*"},
+    {"source": "/:match*", "destination": "https://pyconug-turbo-2024.vercel.app/:match*"},
+    {"source": "/", "destination": "https://pyconug-turbo-2024.vercel.app/"}
+  ]
 }

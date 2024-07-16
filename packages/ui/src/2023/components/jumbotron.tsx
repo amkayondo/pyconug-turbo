@@ -1,4 +1,4 @@
-// import { QUICKET_LINK } from "@/2023/utils/constants";
+// import { QUICKET_LINK } from "@pycon/ui/src/2023/utils/constants";
 import Link from "next/link";
 import { QUICKET_LINK } from "../utils/constants";
 

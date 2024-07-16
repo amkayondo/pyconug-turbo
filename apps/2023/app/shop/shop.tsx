@@ -1,4 +1,4 @@
-// import { PYCON_MERCHANDIZE_URL } from "@/2023/utils/constants";
+// import { PYCON_MERCHANDIZE_URL } from "@pycon/ui/src/2023/utils/constants";
 import Image from "next/image";
 import Link from "next/link";
 

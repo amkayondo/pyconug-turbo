@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-// import { PYCONUG_EMAIL } from "@/2023/utils/constants";
+// import { PYCONUG_EMAIL } from "@pycon/ui/src/2023/utils/constants";
 import Logo from "../../../components/logo";
 import { PYCONUG_EMAIL } from "../../utils/constants";
 
